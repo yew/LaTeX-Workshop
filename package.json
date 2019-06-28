@@ -810,6 +810,11 @@
           ],
           "markdownDescription": "PDF viewer used for [View on PDF] link on \\ref."
         },
+        "latex-workshop.viewer.pdf.internal.url": {
+            "type": "string",
+            "default": "127.0.0.1",
+            "markdownDescription": "Define the url to listen on for communicating with the internal viewer. The default value \"127.0.0.1\" means only listen on localhost."
+        },
         "latex-workshop.viewer.pdf.internal.port": {
           "type": "number",
           "default": "0",
